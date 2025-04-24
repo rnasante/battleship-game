@@ -1,10 +1,3 @@
-/*
- * Count hits and sinks in a Battleship game.
- * shipsStr: string of ship positions e.g. "(E1,E3) (A4,C4)"
- * guessesStr: string of guesses e.g. "(A4,B4,C4,D3,D2,E1)"
- * Returns an array [hitCount, sinkCount]
- */
-
 function countHitsAndSinks(shipsStr, guessesStr) {
     // Parse guesses
     const guesses = new Set(
